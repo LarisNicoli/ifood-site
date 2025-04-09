@@ -87,8 +87,7 @@ body{
     background-color: rgb(174, 248, 100);
 }
 
-#table > table, tr,td{
-    border-collapse: collapse;
-    border:1px solid;
+#table > table tr td{
     background: #f1f1f1;
+    padding: 8px;
 }
