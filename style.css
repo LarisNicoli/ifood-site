@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    font-family: Helvetica, sans-serif;
 }
 #header{
     background-color: #f1f1f1;
@@ -37,6 +38,11 @@ body{
     color: #504f4f;
 }
 
+#content-text p{
+    font-size: larger;
+    font-weight: bold;
+}
+
 #list-tags{
     list-style:none;
     display: flex;
@@ -49,14 +55,17 @@ body{
     border-radius:3px;
     padding:5px;
     font-size: 13px;
+
+    color: #717171;
+    padding: 8px 12px;
+}
+
+.tags:hover{
+    color: rgb(250, 56, 75);
 }
 
 #content-card{
     display: flex;
-
-    font-size: x-large;
-    color: white;
-
     gap: 20px;
 }
 
@@ -66,17 +75,29 @@ body{
     align-items: center;
     justify-content: center;
 
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 220px;
 
     border-radius:15px;
-    gap:16px;
+    gap:20px;
+}
+
+.business-options{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
 }
 
 .btn-card{
-    width: 80px;
+    width: 100px;
     height: 40px;
+
     border-radius: 10px;
+    border: 1px solid;
+
+    font-weight: bold;
+    font-size: small;
+
     background-color: white;
 }
 
@@ -91,3 +112,4 @@ body{
     background: #f1f1f1;
     padding: 8px;
 }
+
