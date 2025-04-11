@@ -5,6 +5,7 @@ body{
 #header{
     background-color: #f1f1f1;
     display: flex;
+
     padding: 10px;
 }
 #logo{
@@ -43,7 +44,8 @@ body{
 }
 
 #content-text p{
-    font-size: larger;
+    width: 500px;
+    font-size: 15px;
     font-weight: bold;
 }
 
