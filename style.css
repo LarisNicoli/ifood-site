@@ -18,8 +18,12 @@ body{
     gap: 20px;
     list-style: none;
 }
+#options-header a{
+    text-decoration: none;
+    color: #000;
+}
 
-#options-header > li:hover{
+#options-header  a:hover{
     color: rgb(250, 56, 75);
 }
 #main{
